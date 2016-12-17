@@ -1,0 +1,48 @@
+body {
+    background-color: #101315;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-weight: 300;
+}
+header {
+    text-align: center;
+    width: 100%;
+	padding: 0px 20px 0px 20px;
+}
+main {
+    text-align: center;
+}
+h2 {
+	color: #9c9c9c;
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+h1 {
+	color: #9c9c9c;
+	margin-top: 50px;
+	font-weight: 200;
+}
+.rpfbutton {
+	background: #dbbf29;
+	color: #333 !important;
+	margin-bottom: 5px;
+}
+.rpfbutton:hover {
+	background: #d5ad28;
+}
+.logo {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.rpfpanel {
+	border-color: #dbbf29;
+}
+.panel-heading {
+	background: #dbbf29;
+	border-color: #dbbf29;
+}
+footer {
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	color: #9c9c9c;
+	font-size: 12px;
+}
