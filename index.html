@@ -1,128 +1,220 @@
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="A modular roleplaying mod framework for Arma 3">
-		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-		<link rel="stylesheet" href="style.css">
-		<script src="https://use.fontawesome.com/9ad36d18b1.js"></script>
-		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:200,300' rel='stylesheet' type='text/css'>
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-		<title>RPFramework</title>
-	</head>
-	<body class="animated fadeIn">
-		<div class="container-fluid">
-			<div class="row">
-				<header>
-					<img src="https://i.imgur.com/3di3NGl.png" class="img-responsive center-block logo">
-					<h2>A modular roleplaying mission, server and addon framework for Arma 3</h2>
-					<a type="button" href="https://github.com/RPFramework/RPFramework/releases/latest" class="btn rpfbutton btn-lg">
-						<i class="fa fa-arrow-circle-down" aria-hidden="true"></i> Download
-					</a>
-					<a type="button" href="https://github.com/RPFramework/RPFramework" class="btn rpfbutton btn-lg">
-						<i class="fa fa-github" aria-hidden="true"></i> Github
-					</a>
-					<a type="button" href="https://goo.gl/forms/5i8dYbVJcidParJU2" class="btn rpfbutton btn-lg">
-						<i class="fa fa-plus-circle" aria-hidden="true"></i> Submit a module
-					</a>
-				</header>
-			</div>
-			<main>
-				<div class="row">
-					<h1>Modules</h1>
-					<div class="col-md-4">
-						<div class="panel rpfpanel">
-							<div class="panel-heading">
-								<h3 class="panel-title">Your module?</h3>
-							</div>
-							<div class="panel-body">
-								<p>You can submit your own modules here so other people can enjoy them.</p>
-							</div>
-							<div class="panel-footer">
-								<a type="button" href="https://goo.gl/forms/5i8dYbVJcidParJU2" class="btn rpfbutton btn-sm">
-									<i class="fa fa-plus-circle" aria-hidden="true"></i> Submit
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="panel rpfpanel">
-							<div class="panel-heading">
-								<h3 class="panel-title">GaragePersistency</h3>
-							</div>
-							<div class="panel-body">
-								<p>This module will save all players' vehicles and will store them in the profileNamespace file on the server. It does require Garage module to work.</p>
-							</div>
-							<div class="panel-footer">
-								<a type="button" href="https://gitlab.com/Dardo/RPF_Persistency" class="btn rpfbutton btn-sm">
-									<i class="fa fa-gitlab" aria-hidden="true"></i> Gitlab
-								</a>
-								<a type="button" href="https://gitlab.com/Dardo" class="btn rpfbutton btn-sm">
-									<i class="fa fa-user" aria-hidden="true"></i> Dardo
-								</a>
-								<a type="button" href="https://github.com/RPFramework/RPFramework/blob/master/LICENSE.txt" class="btn rpfbutton btn-sm">
-									<i class="fa fa-legal" aria-hidden="true"></i> MIT License
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="panel rpfpanel">
-							<div class="panel-heading">
-								<h3 class="panel-title">PlayerNamesPersistency</h3>
-							</div>
-							<div class="panel-body">
-								<p>Adds Persistency to PlayerNames module in RPFramework.</p>
-							</div>
-							<div class="panel-footer">
-								<a type="button" href="https://github.com/zicongqiu/RPFramework_PlayerNamesPersistency/tree/master" class="btn rpfbutton btn-sm">
-									<i class="fa fa-github" aria-hidden="true"></i> Github
-								</a>
-								<a type="button" href="https://github.com/zicongqiu/" class="btn rpfbutton btn-sm">
-									<i class="fa fa-user" aria-hidden="true"></i> HoST
-								</a>
-								<a type="button" href="https://github.com/RPFramework/RPFramework/blob/master/LICENSE.txt" class="btn rpfbutton btn-sm">
-									<i class="fa fa-legal" aria-hidden="true"></i> MIT License
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="panel rpfpanel">
-							<div class="panel-heading">
-								<h3 class="panel-title">Notification System</h3>
-							</div>
-							<div class="panel-body">
-								<p>A simple notification system which can hold and shows up to 5 messages at a time.</p>
-							</div>
-							<div class="panel-footer">
-								<a type="button" href="https://github.com/zicongqiu/RPFramework_NotificationModule" class="btn rpfbutton btn-sm">
-									<i class="fa fa-github" aria-hidden="true"></i> Github
-								</a>
-								<a type="button" href="https://github.com/zicongqiu/" class="btn rpfbutton btn-sm">
-									<i class="fa fa-user" aria-hidden="true"></i> HoST
-								</a>
-								<a type="button" href="https://github.com/RPFramework/RPFramework/blob/master/LICENSE.txt" class="btn rpfbutton btn-sm">
-									<i class="fa fa-legal" aria-hidden="true"></i> MIT License
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</main>
-			<footer class="row">
-				<div class="col-md-12">
-					This website is not affiliated or authorized by Bohemia Interactive a.s. Bohemia Interactive, ARMA, DAYZ and all associated logos and designs are trademarks or registered trademarks of Bohemia Interactive a.s.
-				</div>
-			</footer>
-		</div>
-	</body>
-<html>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.png">
+
+    <title>RPFramework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Custom Styles -->
+    <link href="css/frontend.css" rel="stylesheet">
+
+    <!-- Custom Javascripts -->
+    <script src="./js/themeToggler.js"></script>
+    <script src="./js/all.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="collapse rpf-collapse" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">Modular roleplaying mission framework for Arma 3. For license, check the LICENSE.txt file. Please note that this is by no means a mission that you can start playing on with your friends. This is a framework that you can build your own mission on. You can join the RPFramework Team simply by forking the repository on github and starting to make changes. Every contribution is appreciated. You can find new modules and submit your own ones on our website.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Follow Us on Twitter</a></li>
+                <li><a href="#" class="text-white">Like Us on Facebook</a></li>
+                <li><a href="#" class="text-white">Email Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark box-shadow rpf-navbar">
+        <div class="container d-flex justify-content-between">
+          <a href="./index.html" class="navbar-brand d-flex align-items-center">
+            <span class="fas fa-server"></span>&nbsp; <strong>RPFramework</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="d-flex justify-content-end"></div>
+          <label id="switch" class="switch">
+            <input type="checkbox" onchange="toggleTheme()" id="slider">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <section class="jumbotron text-center">
+        <div class="container-fluid">
+          <p class="rpf-jumbo-header pb-0 mb-0">RPFramework</p>
+          <h4 class="text-muted pb-3 rpf-jumbo-p">A Modular Roleplaying Mission, Server and Addon Framework for ArmA 3.</h4>
+          <p>
+            <a href="https://github.com/RPFramework/RPFramework/releases/latest" class="btn btn-lg btn-warning" target="_blank"><span class="fas fa-cloud-download-alt"></span> Download</a>
+            <a href="https://github.com/RPFramework/RPFramework" class="btn btn-lg btn-warning" target="_blank"><span class="fab fa-github"></span> Github</a>
+            <a href="https://goo.gl/forms/5i8dYbVJcidParJU2" class="btn btn-lg btn-warning" target="_blank"><span class="fas fa-plus-circle"></span> Submit A Module</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="album py-5">
+        <article class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <center class="card-header bg-warning">Your Module</center>
+                <div class="card-body">
+                  <p class="card-text">You can Submit your own Modules here so other people can enjoy them.</p>
+                </div>
+                <center class="card-footer">
+                  <a href="https://goo.gl/forms/5i8dYbVJcidParJU2" target="_blank" class="btn btn-md btn-warning"><span class="fas fa-plus-circle"></span> Submit</a>
+                </center>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <center class="card-header bg-warning">Bladder Module</center>
+                <div class="card-body">
+                  <p class="card-text">This module will add Waste Disposal as a need for Survival.</p>
+                </div>
+                <center class="card-footer">
+                  <a href="#" class="btn btn-md btn-warning" role="button"><span class="fab fa-github"></span> GitHub</a>
+                  <a href="#" class="btn btn-md btn-warning" role="button"><span class="fas fa-user"></span> J. Schmidt</a>
+                  <a href="https://raw.githubusercontent.com/RPFramework/RPFramework/master/LICENSE.txt" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fas fa-gavel"></span> MIT License</a>
+                </center>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <center class="card-header bg-warning">Hygiene Module</center>
+                <div class="card-body">
+                  <p class="card-text">This module will add Hygene as a need for Survival.</p>
+                </div>
+                <center class="card-footer">
+                  <a href="#" class="btn btn-md btn-warning" role="button"><span class="fab fa-github"></span> GitHub</a>
+                  <a href="#" class="btn btn-md btn-warning" role="button"><span class="fas fa-user"></span> J. Schmidt</a>
+                  <a href="https://raw.githubusercontent.com/RPFramework/RPFramework/master/LICENSE.txt" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fas fa-gavel"></span> MIT License</a>
+                </center>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <center class="card-header bg-warning">Energy Module</center>
+                <div class="card-body">
+                  <p class="card-text">This module will add Energy as a need for Survival.</p>
+                </div>
+                <center class="card-footer">
+                  <a href="#" class="btn btn-md btn-warning" role="button"><span class="fab fa-github"></span> GitHub</a>
+                  <a href="#" class="btn btn-md btn-warning" role="button"><span class="fas fa-user"></span> J. Schmidt</a>
+                  <a href="https://raw.githubusercontent.com/RPFramework/RPFramework/master/LICENSE.txt" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fas fa-gavel"></span> MIT License</a>
+                </center>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <center class="card-header bg-warning">Garage Persistency</center>
+                <div class="card-body">
+                  <p class="card-text">This module will save all players' vehicles and will store them in the profile Namespace file on the server. It does require Garage module to work.</p>
+                </div>
+                <center class="card-footer">
+                  <a href="https://gitlab.com/Dardo/RPF_Persistency" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fab fa-gitlab"></span> GitLab</a>
+                  <a href="https://gitlab.com/Dardo" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fas fa-user"></span> Dardo</a>
+                  <a href="https://raw.githubusercontent.com/RPFramework/RPFramework/master/LICENSE.txt" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fas fa-gavel"></span> MIT License</a>
+                </center>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <center class="card-header bg-warning">Player Names Persistency</center>
+                <div class="card-body">
+                  <p class="card-text">This module will add persistency to Player Names module in RPFramework.</p>
+                </div>
+                <center class="card-footer">
+                  <a href="https://github.com/zicongqiu/RPFramework_PlayerNamesPersistency/tree/master" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fab fa-github"></span> GitHub</a>
+                  <a href="https://github.com/zicongqiu/" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fas fa-user"></span> HoST</a>
+                  <a href="https://raw.githubusercontent.com/RPFramework/RPFramework/master/LICENSE.txt" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fas fa-gavel"></span> MIT License</a>
+                </center>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <center class="card-header bg-warning">Notification System</center>
+                <div class="card-body">
+                  <p class="card-text">This module will add a simple notification system which can hold and show up to 5 messages at a time.</p>
+                </div>
+                <center class="card-footer">
+                  <a href="https://github.com/zicongqiu/RPFramework_NotificationModule" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fab fa-github"></span> GitHub</a>
+                  <a href="https://github.com/zicongqiu/" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fas fa-user"></span> HoST</a>
+                  <a href="https://raw.githubusercontent.com/RPFramework/RPFramework/master/LICENSE.txt" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fas fa-gavel"></span> MIT License</a>
+                </center>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <center class="card-header bg-warning">Live Radio Module</center>
+                <div class="card-body">
+                  <p class="card-text">This module will add Live Radio for vehicles via <a href="https://github.com/maca134/arma-nradio" target="_blank">ArmA NRadio</a> extension.</p>
+                </div>
+                <center class="card-footer">
+                  <a href="https://github.com/kerkkoh/RPFrameworkRadio" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fab fa-github"></span> GitHub</a>
+                  <a href="https://github.com/kerkkoh" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fas fa-user"></span> Kerkkoh</a>
+                  <a href="https://raw.githubusercontent.com/RPFramework/RPFramework/master/LICENSE.txt" class="btn btn-md btn-warning" role="button" target="_blank"><span class="fas fa-gavel"></span> MIT License</a>
+                </center>
+              </div>
+            </div>
+
+            
+          </div>
+        </article>
+      </section>
+
+    </main>
+
+    <footer class="text-muted rpf-footer">
+      <div class="container">
+        <h6 class="col-md-3 float-right">
+          <a href="#" class="text-secondary">Back to Top</a>
+        </h6>
+        <h6 class="col-md-9">&copy; 2016<script>new Date().getFullYear()>2016&&document.write("-"+new Date().getFullYear());</script> RPFramework Team</h6>
+        <p class="col-md-9">This Website Is Not Affiliated or Authorized by Bohemia Interactive a.s. Bohemia Interactive, ArmA, DayZ and All Associated Logos and Designs are Trademarks or Registered Trademarks of Bohemia Interactive a.s.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
